@@ -12,11 +12,3 @@ fun main() {
 
     println("Num1: $number1, Num2: $number2 ")
 }
-
-/*  Num1 = 3
-    Num2 = 5
-
-    Aux (3) = Num1 (nD)
-    Num1 (5) = Num2 (nD)
-    Num2 (3) = Aux (nD)
-*/

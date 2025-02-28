@@ -9,12 +9,3 @@ fun main() {
     val salesPrice = buyingPrice + profit
     println("Sales Price: $salesPrice, Profit: $profit")
 }
-
-/*  Sales price = Buying price * Profit percentage (80 / 100)
-    Sales price = Buying price + Profit percentage
-    ----------------------------
-    Sales price = 5 * (80 / 100)
-    Sales price = 5 * 0.8
-    Sales price = 5 + 4
-    Sales price = 9
-*/

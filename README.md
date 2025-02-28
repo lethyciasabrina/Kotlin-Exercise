@@ -1,4 +1,4 @@
-# Kotlin Exercises 
+# Kotlin Exercises
 
 This repository contains solved **Kotlin** exercises, organized by category.
 The exercises are inspired by the lessons of [Jose Santos](https://www.youtube.com/@airamez), aiming
