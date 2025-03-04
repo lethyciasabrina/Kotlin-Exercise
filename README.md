@@ -4,7 +4,7 @@ This repository contains solved **Kotlin** exercises, organized by category.
 The exercises are inspired by the lessons of [Jose Santos](https://www.youtube.com/@airamez), aiming
 to strengthen programming fundamentals.
 
-📌 **Objective:**
+**Objective:**
 
 - Practice fundamental programming concepts with Kotlin.
 - Improve my skills with Git and GitHub.
@@ -37,3 +37,4 @@ to strengthen programming fundamentals.
 |                                                                         | [MaxOfThree.kt](if_command/MaxOfThree.kt)                                     | Read 3 integers and print the highest value.                                                                                                                                |
 |                                                                         | [MaxOfFive.kt](if_command/MaxOfFive.kt)                                       | Read 5 integer numbers and print the biggest one.                                                                                                                           |
 |                                                                         | [SortThreeNumbers.kt](if_command/SortThreeNumbers.kt)                         | Read 3 integers and print them in ascending order. (non descending)                                                                                                         |
+|                                                                         | [CheckPositiveOrNegative.kt](if_command/CheckPositiveOrNegative.kt)           | Read a integer number and print if it is positive or negative.                                                                                                              |
