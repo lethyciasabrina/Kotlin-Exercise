@@ -6,7 +6,7 @@ fun main() {
 
     if (number > 0) {
         println("$number is positive")
-    } else {
+    } else if (number < 0) {
         println("$number is negative")
     }
 }
