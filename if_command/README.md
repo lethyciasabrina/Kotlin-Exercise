@@ -1,0 +1,15 @@
+| File                                                     | Description                                                                                                                                    |
+|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+| [MaxOfTwo.kt](MaxOfTwo.kt)                               | Read two integers numbers and print the one with highest value. Assume the values are not the same.                                            |
+| [MaxOrEqual.kt](MaxOrEqual.kt)                           | Read two integers numbers and print the one with highest value. If the values are equal, print "EQUALS".                                       |
+| [MaxOfThree.kt](MaxOfThree.kt)                           | Read 3 integers and print the highest value.                                                                                                   |
+| [MaxOfFive.kt](MaxOfFive.kt)                             | Read 5 integer numbers and print the biggest one.                                                                                              |
+| [SortThreeNumbers.kt](SortThreeNumbers.kt)               | Read 3 integers and print them in ascending order. (non descending)                                                                            |
+| [CheckPositiveOrNegative.kt](CheckPositiveOrNegative.kt) | Read a integer number and print if it is positive or negative.                                                                                 |
+| [CheckMinorAge.kt](CheckMinorAge.kt)                     | Read an age and print "Minor" if the age is smaller than 18.                                                                                   |
+| [CheckMinorOrAdult.kt](CheckMinorOrAdult.kt)             | Read an age and print "Minor" if the age is smaller than 18 and "ADULT" otherwise.                                                             |
+| [CheckEvenOrOdd.kt](CheckEvenOrOdd.kt)                   | Read an integer number and print if the number is Even or Odd.                                                                                 |
+| [MathOperation.kt](MathOperation.kt)                     | Read two numbers, desired operations (+, -, *, /) and print an string representing the operation with the result.                              |
+| [MilitaryTime.kt](MilitaryTime.kt)                       | Read the current hour (military time: 0 to 23) and print the appropriate salutation: Good morning, Good Afternoon, Good evening or Good night. |
+| [DigitToWord.kt](DigitToWord.kt)                         | Read a single digit number and print the description (name).                                                                                   |
+| [CheckVowelOrConsonant.kt](CheckVowelOrConsonant.kt)     | Read an letter and print if it is a consonant or vowel.                                                                                        |
