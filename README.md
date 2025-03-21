@@ -12,5 +12,5 @@ to strengthen programming fundamentals.
 
 ## 📌 Exercises
 
-- [🟢 Basic Operations](basic_operations/README.md)
-- [🔴 Conditional Statements](if_command/README.md)
+- [Basic Operations](basic_operations/README.md)
+- [Conditional Statements](if_command/README.md)
