@@ -2,10 +2,7 @@ package if_command
 
 fun main() {
     println("Enter your age: ")
-    val ageInput = readln()
-
-    val age = ageInput.toIntOrNull()
-
+    val age = readln().toIntOrNull()
     if (age == null || age < 0) {
         println("Invalid Operation")
     } else if (age == 0) {
