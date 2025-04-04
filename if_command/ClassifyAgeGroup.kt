@@ -2,9 +2,13 @@ package if_command
 
 fun main() {
     println("Enter your age: ")
-    val age = readln().toInt()
+    val ageInput = readln()
 
-    if (age == 0) {
+    val age = ageInput.toIntOrNull()
+
+    if (age == null || age < 0) {
+        println("Invalid Operation")
+    } else if (age == 0) {
         println("Unborn")
     } else if (age < 1) {
         println("Infant")
