@@ -7,17 +7,16 @@ fun main() {
     if (quantity == null || quantity < 0) {
         println("Invalid operation!")
     } else {
-        var unitPrice = 0.0
-        if (quantity < 5) {
-            unitPrice = 1.50
+        val unitPrice = if (quantity < 5) {
+            1.50
         } else if (quantity < 10) {
-            unitPrice = 1.45
+            1.45
         } else if (quantity < 50) {
-            unitPrice = 1.40
+            1.40
         } else if (quantity < 100) {
-            unitPrice = 1.30
+            1.30
         } else {
-            unitPrice = 1.20
+            1.20
         }
         println("Total price: ${unitPrice * quantity}")
     }
