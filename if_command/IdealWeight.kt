@@ -14,12 +14,12 @@ fun main() {
         var realWeight = 0.0
         if (gender == "F" || gender == "f") {
             realWeight = (62.1 * height) - 44.7
-            println("Hi $name, your height is ${height}m and your ideal weight is ${realWeight}kg")
         } else if (gender == "M" || gender == "m") {
             realWeight = (72.7 * height) - 58
-            println("Hi $name, your height is ${height}m and your ideal weight is ${realWeight}kg")
         } else {
             println("Invalid gender. Please enter 'M' for male or 'F' for female.")
+            return
         }
+        println("Hi $name, your height is ${height}m and your ideal weight is ${realWeight}kg")
     }
 }
