@@ -5,21 +5,27 @@ fun main() {
     val name = readln()
     println("Enter your height: ")
     val height = readln().toDouble()
-    println("Enter your gender: (F - Female; M - Male): ")
-    val gender = readln()
+    println("Enter your gender: ")
+    val gender = readln().uppercase()
 
-    if (height < 0 || gender.length != 1 || !gender[0].isLetter()) {
+    if (height < 0 || height > 2.5 || gender.length != 1 || !gender[0].isLetter()) {
         println("Invalid Operation")
     } else {
         var realWeight = 0.0
-        if (gender == "F" || gender == "f") {
+        if (gender == "F") {
             realWeight = (62.1 * height) - 44.7
-        } else if (gender == "M" || gender == "m") {
+        } else if (gender == "M") {
             realWeight = (72.7 * height) - 58
         } else {
-            println("Invalid gender. Please enter 'M' for male or 'F' for female.")
+            println("I don't have a formula for the given gender.")
             return
         }
-        println("Hi $name, your height is ${height}m and your ideal weight is ${realWeight}kg")
+        println(
+            "Hi $name, your height is ${"%.2f".format(height)}m and your ideal weight is ${
+                "%.2f".format(
+                    realWeight
+                )
+            }kg"
+        )
     }
 }
