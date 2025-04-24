@@ -11,7 +11,7 @@ fun main() {
     if (height < 0 || height > 2.5 || gender.length != 1 || !gender[0].isLetter()) {
         println("Invalid Operation")
     } else {
-        var idealWeight = 0.0
+        val idealWeight: Double
         if (gender == "F") {
             idealWeight = (62.1 * height) - 44.7
         } else if (gender == "M") {
