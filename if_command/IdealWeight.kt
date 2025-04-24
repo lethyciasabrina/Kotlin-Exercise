@@ -11,11 +11,11 @@ fun main() {
     if (height < 0 || height > 2.5 || gender.length != 1 || !gender[0].isLetter()) {
         println("Invalid Operation")
     } else {
-        var realWeight = 0.0
+        var idealWeight = 0.0
         if (gender == "F") {
-            realWeight = (62.1 * height) - 44.7
+            idealWeight = (62.1 * height) - 44.7
         } else if (gender == "M") {
-            realWeight = (72.7 * height) - 58
+            idealWeight = (72.7 * height) - 58
         } else {
             println("I don't have a formula for the given gender.")
             return
@@ -23,7 +23,7 @@ fun main() {
         println(
             "Hi $name, your height is ${"%.2f".format(height)}m and your ideal weight is ${
                 "%.2f".format(
-                    realWeight
+                    idealWeight
                 )
             }kg"
         )
