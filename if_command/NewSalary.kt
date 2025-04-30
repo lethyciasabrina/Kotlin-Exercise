@@ -6,15 +6,17 @@ fun main() {
     println("Enter your salary: ")
     val salary = readln().toDouble()
 
-    val raising: Int
-    if (salary in 0.0..50000.0) {
-        raising = 20
+    val raising = if (name.isBlank() || !name.all { it.isLetter() } || salary < 0) {
+        println("Invalid Operation")
+        return
+    } else if (salary in 0.0..50000.0) {
+        20
     } else if (salary in 50001.0..100000.0) {
-        raising = 15
+        15
     } else if (salary in 100001.0..150000.0) {
-        raising = 10
+        10
     } else {
-        raising = 5
+        5
     }
     val newSalary = salary + salary * (raising / 100.0)
     println(
