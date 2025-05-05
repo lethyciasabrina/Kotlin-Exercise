@@ -14,3 +14,4 @@ to strengthen programming fundamentals.
 
 - [Basic Operations](basic_operations/README.md)
 - [Conditional Statements](if_command/README.md)
+- [Repetition Commands](repetition_commands/README.md)
