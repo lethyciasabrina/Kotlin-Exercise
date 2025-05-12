@@ -9,7 +9,7 @@ fun main() {
     val end = maxOf(number1, number2)
     val range = start..end
     for (numbers in range) {
-        if (numbers % 2 != 0 || numbers == number1 || numbers == number2) {
+        if (numbers % 2 != 0 || numbers == start || numbers == end) {
             continue
         }
         print("$numbers ")
