@@ -5,3 +5,4 @@
 | [EvenNumbersInInterval.kt](EvenNumbersInInterval.kt)   | Read two integer numbers representing an interval and print all even numbers inside the interval. |
 | [AverageUntilEmpty.kt](AverageUntilEmpty.kt)           | Read integer numbers (flag = empty) and print the average.                                        |
 | [HighestValueUntilEmpty.kt](HighestValueUntilEmpty.kt) | Read integer numbers (flag = empty) and print the highest value.                                  |
+| [TwoHighestUnique.kt](TwoHighestUnique.kt)             | Read integer numbers (flag = empty) and print the two highest unique values.                      |
