@@ -6,3 +6,4 @@
 | [AverageUntilEmpty.kt](AverageUntilEmpty.kt)           | Read integer numbers (flag = empty) and print the average.                                        |
 | [HighestValueUntilEmpty.kt](HighestValueUntilEmpty.kt) | Read integer numbers (flag = empty) and print the highest value.                                  |
 | [TwoHighestUnique.kt](TwoHighestUnique.kt)             | Read integer numbers (flag = empty) and print the two highest unique values.                      |
+| [MinValueFrequency.kt](MinValueFrequency.kt)           | Read integer numbers (flag = empty) and print the smallest value and it's frequency.              |
