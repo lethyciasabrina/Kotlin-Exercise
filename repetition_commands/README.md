@@ -8,3 +8,4 @@
 | [TwoHighestUnique.kt](TwoHighestUnique.kt)             | Read integer numbers (flag = empty) and print the two highest unique values.                                                    |
 | [MinValueFrequency.kt](MinValueFrequency.kt)           | Read integer numbers (flag = empty) and print the smallest value and it's frequency.                                            |
 | [FibonacciSequence.kt](FibonacciSequence.kt)           | Print the Fibonacci sequence while the term is smaller than 5000. <br/>Fibonacci = 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... |
+| [Factorial.kt](Factorial.kt)                           | Read a integer number and calculate its Factorial. f(n) = n.(n-1).(n-2)(n-3)...1                                                |
