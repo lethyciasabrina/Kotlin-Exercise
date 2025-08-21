@@ -1,7 +1,8 @@
 # Kotlin Exercises
 
 This repository contains solved **Kotlin** exercises, organized by category.
-The exercises are inspired by the lessons of [Jose Santos](https://www.youtube.com/@airamez), aiming
+Most of the exercises are inspired by the lessons
+of [Jose Santos](https://www.youtube.com/@airamez), aiming
 to strengthen programming fundamentals.
 
 **Objective:**
@@ -15,3 +16,4 @@ to strengthen programming fundamentals.
 - [Basic Operations](basic_operations/README.md)
 - [Conditional Statements](if_command/README.md)
 - [Repetition Commands](repetition_commands/README.md)
+- [Functions](functions/README.md)
