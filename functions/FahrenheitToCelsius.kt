@@ -3,10 +3,10 @@ package functions
 fun main() {
     print("Farenheit: ")
     val f = readln().toDouble()
-    FarenheitToCelsius(f)
-    println("Celsius: ${FarenheitToCelsius(f)}")
+    val celsius = farenheitToCelsius(f)
+    println("Celsius: $celsius")
 }
 
-fun FarenheitToCelsius(f: Double): Double {
+fun farenheitToCelsius(f: Double): Double {
     return (f - 32) * 5 / 9
 }
