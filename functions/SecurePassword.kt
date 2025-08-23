@@ -3,9 +3,9 @@ package functions
 fun main() {
     println("Password: ")
     val password = readln()
-    println(securePassword(password))
+    println(password.securePassword())
 }
 
-fun securePassword(password: String): Boolean {
-    return password.length >= 8 && password.any { it.isDigit() }
+fun String.securePassword(): Boolean {
+    return this.length >= 8 && this.any { it.isDigit() }
 }
