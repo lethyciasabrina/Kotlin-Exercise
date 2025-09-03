@@ -3,9 +3,14 @@ package functions
 data class Book(var title: String = "", var author: String = "")
 
 fun main() {
-    val classic = Book().apply {
-        title = "Friends, lovers and that terrible thing"
-        author = "Matthew Perry"
+    print("Type the title: ")
+    val newTitle = readln()
+    print("Type the author: ")
+    val newAuthor = readln()
+
+    val newBook = Book().apply {
+        title = newTitle
+        author = newAuthor
     }
-    println("Book Title: ${classic.title} \nBook Author: ${classic.author}")
+    println("Book: ${newBook.title} \nAuthor: ${newBook.author}")
 }
