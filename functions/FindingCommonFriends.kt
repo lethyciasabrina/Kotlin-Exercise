@@ -4,23 +4,22 @@ fun main() {
     val friends = mutableSetOf<String>()
     val otherFriends = mutableSetOf<String>()
     while (true) {
-        println("Friends (type 'next' to continue): ")
-        val myFriends = readln()
-        friends.add(myFriends)
-        if (myFriends.equals("next", ignoreCase = true)) {
-            while (true) {
-                println("Type your other friends (type 'done' to exit): ")
-                val myOtherFriends = readln()
-                otherFriends.add(myOtherFriends)
-                if (myOtherFriends.equals("done", ignoreCase = true)) {
-                    val intersectFriends = friends.intersect(otherFriends)
-                    println("Friends: $intersectFriends")
-                    break
-                }
-            }
+        print("Friends (type 'next' to continue): ")
+        val input = readln()
+        if (input.equals("next", ignoreCase = true)) {
             break
         } else {
-            continue
+            friends.add(input)
         }
     }
+    while (true) {
+        print("Friends (type 'done' to exit): ")
+        val input = readln()
+        if (input.equals("done", ignoreCase = true)) {
+            break
+        } else {
+            otherFriends.add(input)
+        }
+    }
+    println("Friends: ${friends.intersect(otherFriends)}")
 }
