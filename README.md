@@ -17,3 +17,4 @@ to strengthen programming fundamentals.
 - [Conditional Statements](if_command/README.md)
 - [Repetition Commands](repetition_commands/README.md)
 - [Functions](functions/README.md)
+- [Collections](collections/README.md)
