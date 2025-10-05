@@ -1,4 +1,4 @@
-package functions
+package collections
 
 fun main() {
     val task = mutableListOf<String>()
