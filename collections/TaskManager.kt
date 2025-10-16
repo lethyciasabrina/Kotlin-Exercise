@@ -43,7 +43,7 @@ fun listTask(taskList: MutableList<String>) {
     if (taskList.isEmpty()) {
         println("You don't have any tasks yet.")
     } else {
-        tasks.forEachIndexed { index, task ->
+        taskList.forEachIndexed { index, task ->
             println("${index + 1}. $task")
         }
     }
