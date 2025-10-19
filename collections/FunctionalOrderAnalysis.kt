@@ -52,13 +52,13 @@ fun filterByDelivery(orders: List<Order>) {
 
 fun mapToItems(orders: List<Order>) {
     print("Enter a minimum price: ")
-    val minimumPrice = readln().toDoubleOrNull()
-    if (minimumPrice != null) {
+    try {
+        val minimumPrice = readln().toDouble()
         val highValueItems = orders
             .filter { it.price >= minimumPrice }
             .map { it.item }
         println(highValueItems)
-    } else {
-        println("Invalid")
+    } catch (_: NumberFormatException) {
+        println("ERROR: Please, enter a valid number! (e.g, 50.0).")
     }
 }
