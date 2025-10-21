@@ -18,3 +18,4 @@ to strengthen programming fundamentals.
 - [Repetition Commands](repetition_commands/README.md)
 - [Functions](functions/README.md)
 - [Collections](collections/README.md)
+- [Data Handling and I/O](exceptions_and_files/README.md)
