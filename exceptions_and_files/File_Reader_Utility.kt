@@ -22,7 +22,7 @@ fun readLogLines(filename: String): List<String>? {
     try {
         return file.readLines()
     } catch (e: IOException) {
-        print("ERROR: I/O error reading file")
+        print("ERROR: I/O error reading file \n$e")
         return null
     }
 }
