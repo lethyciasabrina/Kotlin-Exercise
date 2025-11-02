@@ -7,7 +7,7 @@ val tasksToSave = mutableListOf<String>()
 
 fun main() {
     val filename = "tasks.txt"
-    val loadedTasks = loadTasks(filename) ?: emptyList()
+    val loadedTasks = readLoadLines(filename) ?: emptyList()
     val currentTasks = loadedTasks.toMutableList()
 
     if (currentTasks.isEmpty()) {
@@ -42,7 +42,7 @@ fun saveTasks(filename: String, tasks: List<String>): Boolean {
     }
 }
 
-fun loadTasks(filename: String): List<String>? {
+fun readLoadLines(filename: String): List<String>? {
     val file = File(filename)
     if (!file.exists()) {
         return null
