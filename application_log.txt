@@ -1,0 +1,8 @@
+[2025-29-10 10:00:00] INFO: Process started successfully.
+[2025-29-10 10:01:30] SUCCESS: Data synchronized in 1.5s.
+[2025-29-10 10:03:15] ERROR: Connection to the DB failed. Trying again...
+[2025-29-10 10:04:01] WARNING: High CPU usage (85%).
+[2025-29-10 10:05:22] ERROR: Permission denied to write to file X.
+[2025-29-10 10:06:50] DEBUG: Variable 'x' = 5.
+[2025-29-10 10:07:00] SUCCESS: User ID 10 logged in.
+[2025-29-10 10:08:11] ERROR: Timeout on external request.
