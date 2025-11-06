@@ -19,4 +19,4 @@ to strengthen programming fundamentals.
 - [Functions](functions/README.md)
 - [Collections](collections/README.md)
 - [Data Handling and I/O](exceptions_and_files/README.md)
-- [Object-Oriented Programming](object_oriented_programming/README.md)
+- [Object Oriented Programming](object_oriented_programming/README.md)
